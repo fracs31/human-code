@@ -1,0 +1,27 @@
+Accendo il PC.
+Apro il Browser.
+Vado su Amazon.
+Cerco nella barra di ricerca "Lampada da tavolo".
+
+SE la consegna Prime è presente e il prezzo è nel budget e la consegna è entro domani
+	* aggiungo la lampada al carrello
+	  regalo trovato
+
+ALTRIMENTI cerco "Stilografica" nella barra di ricerca
+	
+	SE la consegna Prime è presente e il prezzo è nel budget e la consegna è entro domani
+		* aggiungo la stilografica al carrello
+		 regalo trovato
+
+	ALTRIMENTI
+		
+		FINCHè il carrello è vuoto 
+				cerco "Libro" nella barra di ricerca 
+				SE il libro ha la consegna Prime e il prezzo è il budget e la consegna è entro domani
+					* aggiungo il libro al carrello
+					regalo trovato
+
+
+SE io trovato il regalo
+	* vado nel carrello ed effettuo il checkout
+
